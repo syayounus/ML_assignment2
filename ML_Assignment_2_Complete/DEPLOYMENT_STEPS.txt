@@ -1,0 +1,9 @@
+Deployment checklist:
+1. Create a new GitHub repository.
+2. Upload all files from this folder.
+3. Open Streamlit Community Cloud.
+4. Create New App from your GitHub repository.
+5. Use app.py as the main file.
+6. Deploy and copy the Streamlit app link.
+7. Replace placeholder links in README.md and ML_Assignment_2_Submission_Draft.pdf before final submission.
+8. Run on BITS Virtual Lab and add the screenshot to your final PDF.

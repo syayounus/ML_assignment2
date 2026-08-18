@@ -1,0 +1,67 @@
+{
+  "Logistic Regression": {
+    "confusion_matrix": [
+      [
+        52,
+        1
+      ],
+      [
+        1,
+        89
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n   malignant       0.98      0.98      0.98        53\n      benign       0.99      0.99      0.99        90\n\n    accuracy                           0.99       143\n   macro avg       0.99      0.99      0.99       143\nweighted avg       0.99      0.99      0.99       143\n"
+  },
+  "Decision Tree": {
+    "confusion_matrix": [
+      [
+        49,
+        4
+      ],
+      [
+        5,
+        85
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n   malignant       0.91      0.92      0.92        53\n      benign       0.96      0.94      0.95        90\n\n    accuracy                           0.94       143\n   macro avg       0.93      0.93      0.93       143\nweighted avg       0.94      0.94      0.94       143\n"
+  },
+  "kNN": {
+    "confusion_matrix": [
+      [
+        50,
+        3
+      ],
+      [
+        0,
+        90
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n   malignant       1.00      0.94      0.97        53\n      benign       0.97      1.00      0.98        90\n\n    accuracy                           0.98       143\n   macro avg       0.98      0.97      0.98       143\nweighted avg       0.98      0.98      0.98       143\n"
+  },
+  "Naive Bayes": {
+    "confusion_matrix": [
+      [
+        46,
+        7
+      ],
+      [
+        2,
+        88
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n   malignant       0.96      0.87      0.91        53\n      benign       0.93      0.98      0.95        90\n\n    accuracy                           0.94       143\n   macro avg       0.94      0.92      0.93       143\nweighted avg       0.94      0.94      0.94       143\n"
+  },
+  "Random Forest (Ensemble)": {
+    "confusion_matrix": [
+      [
+        49,
+        4
+      ],
+      [
+        2,
+        88
+      ]
+    ],
+    "classification_report": "              precision    recall  f1-score   support\n\n   malignant       0.96      0.92      0.94        53\n      benign       0.96      0.98      0.97        90\n\n    accuracy                           0.96       143\n   macro avg       0.96      0.95      0.95       143\nweighted avg       0.96      0.96      0.96       143\n"
+  }
+}
