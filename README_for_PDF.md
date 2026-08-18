@@ -22,9 +22,7 @@ The target column used in this project is `target`.
 
 ## c. GitHub Repository Link
 
-Replace this placeholder after uploading the folder to GitHub:
-
-`https://github.com/<your-github-username>/<your-repository-name>`
+https://github.com/syayounus/ML_assignment2.git
 
 ## d. Live Streamlit App Link
 
